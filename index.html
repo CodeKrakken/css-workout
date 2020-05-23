@@ -5,30 +5,40 @@
     <title>CSS Workout</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
-      div {
-        color: blue; 
-        font-size: 30px; 
+      head-style {
         font-family: Cursive;
       }
     </style>
   </head>
   <body>
 
-    <h1>
-      i am the header
-    </h1>
-    
-    <p style="color: red; font-size: 20px; font-family: Arial">
+    <p style="font-family: Arial">
       I am styled inline
     </p>
 
-    <div>
+    <head-style>
       I am styled in the head style section
+    </head-style>
+
+    <br><br>
+
+    <file-style>
+      I am styled in the style file
+    </file-style>
+
+    <br><br>
+
+    <div class="red">
+      Red Class
     </div>
 
-    <style-file>
-      I am styled in the style file
-    </style-file>
+    <div class="uppercase">
+      uppercase class
+    </div>
+
+    <div class="red uppercase">
+      multiple classes
+    </div>
 
   </body>
 </html>

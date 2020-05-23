@@ -1,9 +1,11 @@
-style-file {
-  color: yellow;
-  font-size: 40px;
+file-style {
   font-family: fantasy;
 }
 
-h1 {
-  color: maroon
+.red {
+  color: red
+}
+
+.uppercase {
+  text-transform: uppercase
 }
