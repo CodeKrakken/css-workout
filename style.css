@@ -67,3 +67,19 @@ normal-section {
 .right-align {
   text-align: right
 }
+
+overlay {
+  opacity: 0.5;
+}
+
+.local-image {
+  background-image: url("./local-image.png");
+  height: 100;
+  width: auto
+}
+
+.web-image {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png");
+  height: 100;
+  width: auto
+}
