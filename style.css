@@ -28,3 +28,7 @@ heirarchy {
   color: blue;
   font-size: 40px
 }
+
+.styled-list li {
+  color: red
+}
