@@ -22,23 +22,22 @@ selector-1.selector-2 {
 
 heirarchy {
   color: beige;
-/*   background: black; */
   font-size: 20px
 }
 
 .heirarchy {
   color: bisque;
-  font-size: 25px
+  font-size: 25px;
 }
 
 #heirarchy {
   color: blanchedalmond;
-  font-size: 30px
+  font-size: 30px;
 }
 
 important-div {
   color: blue !important;
-  font-size: 35px
+  font-size: 35px !important;
 }
 
 .styled-list li {
@@ -55,4 +54,16 @@ bold-section {
 
 normal-section {
   font-weight: normal
+}
+
+.left-align {
+  text-align: left
+}
+
+.center-align {
+  text-align: center
+}
+
+.right-align {
+  text-align: right
 }
