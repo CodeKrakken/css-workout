@@ -1,3 +1,7 @@
+body {
+  font-family: monospace;
+}
+
 file-style {
   font-family: fantasy;
 }
@@ -21,14 +25,23 @@ heirarchy {
 
 .heirarchy {
   color: indigo;
-  font-size: 30px
+  font-size: 25px
 }
 
 #heirarchy {
   color: blue;
-  font-size: 40px
+  font-size: 30px
+}
+
+important-div {
+  color: green !important;
+  font-size: 35px
 }
 
 .styled-list li {
   color: red
+}
+
+styled, together {
+  color: aquamarine
 }
