@@ -48,3 +48,11 @@ important-div {
 styled, together {
   color: brown
 }
+
+bold-section {
+  font-weight: bold
+}
+
+normal-section {
+  font-weight: normal
+}
