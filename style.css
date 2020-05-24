@@ -4,10 +4,11 @@ body {
 
 file-style {
   font-family: fantasy;
+  color: aqua
 }
 
-.red {
-  color: red
+.aquamarine {
+  color: aquamarine
 }
 
 .uppercase {
@@ -15,33 +16,35 @@ file-style {
 }
 
 selector-1.selector-2 {
-  color: red
+  color: azure;
+  background: black
 }
 
 heirarchy {
-  color: violet;
+  color: beige;
+/*   background: black; */
   font-size: 20px
 }
 
 .heirarchy {
-  color: indigo;
+  color: bisque;
   font-size: 25px
 }
 
 #heirarchy {
-  color: blue;
+  color: blanchedalmond;
   font-size: 30px
 }
 
 important-div {
-  color: green !important;
+  color: blue !important;
   font-size: 35px
 }
 
 .styled-list li {
-  color: red
+  color: blueviolet
 }
 
 styled, together {
-  color: aquamarine
+  color: brown
 }
