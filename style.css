@@ -10,6 +10,10 @@ file-style {
   text-transform: uppercase
 }
 
+selector-1.selector-2 {
+  color: red
+}
+
 heirarchy {
   color: violet;
   font-size: 20px
