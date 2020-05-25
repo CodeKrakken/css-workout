@@ -40,7 +40,7 @@ important-div {
   font-size: 35px !important;
 }
 
-.styled-list li {
+#styled-list li {
   color: blueviolet
 }
 
@@ -56,15 +56,15 @@ normal-section {
   font-weight: normal
 }
 
-.left-align {
+#left-align {
   text-align: left
 }
 
-.center-align {
+#center-align {
   text-align: center
 }
 
-.right-align {
+#right-align {
   text-align: right
 }
 
@@ -101,7 +101,7 @@ overlay {
   border: thin solid burlywood
 }
 
-.box-model {
+#box-model {
   margin: 10px;
   padding: 10px;
   width: 100px;
@@ -110,4 +110,25 @@ overlay {
   border-radius: 100%;
   text-align: center;
   line-height: 100px
+}
+
+.second {
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  
+}
+
+.third {
+  padding: 5px 20px 5px 20px;
+}
+
+.fourth {
+  padding: 5px 20px
+}
+
+.box {
+  border: thin solid black;
+  width: fit-content
 }
