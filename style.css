@@ -1,8 +1,9 @@
-/* This resets defaults to 0 */
+/* This resets defaults to 0 and stops the box borders increasing total box size */
 
 * {
   margin: 0;
-  padding: 0
+  padding: 0;
+  box-sizing: border-box
 }
 
 body {
