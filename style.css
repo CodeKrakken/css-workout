@@ -137,6 +137,9 @@ overlay {
 .box {
   border: thin solid black;
   width: fit-content;
+}
+
+.center-align {
   display: flex;
   justify-content: center
 }
@@ -171,6 +174,24 @@ overlay {
   min-width: 300px;
   max-height: 300px;
   min-height: 300px;
-  display: flex;
-  justify-content: center
+}
+
+.overflow {
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  border: thin solid black
+}
+
+.visible {
+  overflow: visible
+}
+
+.scroll {
+  overflow: scroll
+}
+
+.hidden {
+  overflow: hidden
 }
