@@ -101,7 +101,7 @@ overlay {
   border: thin solid burlywood
 }
 
-#box-model {
+#circular-box {
   margin: 10px;
   padding: 10px;
   width: 100px;
@@ -117,18 +117,47 @@ overlay {
   padding-right: 20px;
   padding-bottom: 5px;
   padding-left: 20px;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-left: 20px;
   
 }
 
 .third {
+  margin: 5px 20px 5px 20px;
   padding: 5px 20px 5px 20px;
 }
 
 .fourth {
-  padding: 5px 20px
+  margin: 5px 20px;
+  padding: 5px 20px;
 }
 
 .box {
+  border: thin solid black;
+  width: fit-content
+}
+
+#container {
+  width: 500px;
+  height: 500px;
+  border: thin solid black;
+  margin: 20px;
+  display: flex;
+  justify-content: center
+}
+
+#content {
+  width: 500px;
+  margin: auto auto;
+  text-align: center
+}
+
+.padding-margin-box {
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
   border: thin solid black;
   width: fit-content
 }
