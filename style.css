@@ -234,3 +234,11 @@ display-none {
   left: 900px;
   background: white;
 }
+
+.underneath {
+  z-index: 0
+}
+
+.ontop {
+  z-index: 1
+}
