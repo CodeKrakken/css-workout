@@ -215,7 +215,6 @@ display-none {
   position: relative;
   bottom: 150px;
   left: 150px;
-  background: white;
 }
 
 .absolute {
@@ -230,9 +229,8 @@ display-none {
 
 .fixed {
   position: fixed;
-  top: 300px;
+  top: 200px;
   left: 900px;
-  background: white;
 }
 
 .underneath {
@@ -265,4 +263,51 @@ display-none {
 
 .float-right {
   float: right
+}
+
+.question {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  height: 150px;
+  width: 200px;
+  float: left;
+}
+
+h2 {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+}
+
+h3 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h4 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase
 }
