@@ -258,3 +258,11 @@ display-none {
 .inline-block {
   display: inline-block
 }
+
+.float-left {
+  float: left
+}
+
+.float-right {
+  float: right
+}
