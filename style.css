@@ -117,7 +117,8 @@ overlay {
   border: thick dashed cadetblue;
   border-radius: 100%;
   text-align: center;
-  line-height: 100px
+  display: flex;
+  justify-content: center
 }
 
 .second {
@@ -160,7 +161,7 @@ overlay {
   justify-content: center
 }
 
-#content {
+.content {
   width: 300px;
   margin: auto auto;
   text-align: center
