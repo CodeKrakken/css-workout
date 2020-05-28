@@ -275,6 +275,10 @@ display-none {
   clear: left;
 }
 
+.small {
+  height: 100px;
+  width: 100px
+}
 .answer {
   border: 1px solid #466995;
   margin: 20px;
