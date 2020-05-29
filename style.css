@@ -314,3 +314,8 @@ h4 {
   text-align: center;
   text-transform: uppercase
 }
+
+.coloured {
+  color: red;
+  background-color: blue;
+}
