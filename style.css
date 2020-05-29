@@ -282,7 +282,6 @@ display-none {
 .answer {
   border: 1px solid #466995;
   margin: 20px;
-  display: inline-block;
   height: 150px;
   width: 200px;
   float: left;
