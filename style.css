@@ -396,3 +396,37 @@ h4 {
 #italics {
   font-style: italic;
 }
+
+#em0 {
+  word-spacing: 0.0em;
+}
+#em1 {
+  word-spacing: 0.1em;
+}
+#em2 {
+  word-spacing: 0.2em;
+}
+#em3 {
+  word-spacing: 0.3em;
+}
+#em4 {
+  word-spacing: 0.4em;
+}
+#em5 {
+  word-spacing: 0.5em;
+}
+#em6 {
+  word-spacing: 0.6em;
+}
+#em7 {
+  word-spacing: 0.7em;
+}
+#em8 {
+  word-spacing: 0.8em;
+}
+#em9 {
+  word-spacing: 0.9em;
+}
+#em99 {
+  word-spacing: 9.9em;
+}
