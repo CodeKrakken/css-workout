@@ -397,36 +397,70 @@ h4 {
   font-style: italic;
 }
 
-#em0 {
+#wordem0 {
   word-spacing: 0.0em;
 }
-#em1 {
+#wordem1 {
   word-spacing: 0.1em;
 }
-#em2 {
+#wordem2 {
   word-spacing: 0.2em;
 }
-#em3 {
+#wordem3 {
   word-spacing: 0.3em;
 }
-#em4 {
+#wordem4 {
   word-spacing: 0.4em;
 }
-#em5 {
+#wordem5 {
   word-spacing: 0.5em;
 }
-#em6 {
+#wordem6 {
   word-spacing: 0.6em;
 }
-#em7 {
+#wordem7 {
   word-spacing: 0.7em;
 }
-#em8 {
+#wordem8 {
   word-spacing: 0.8em;
 }
-#em9 {
+#wordem9 {
   word-spacing: 0.9em;
 }
-#em99 {
+#wordem99 {
   word-spacing: 9.9em;
+}
+
+#letterem0 {
+  letter-spacing: 0.0em;
+}
+#letterem1 {
+  letter-spacing: 0.1em;
+}
+#letterem2 {
+  letter-spacing: 0.2em;
+}
+#letterem3 {
+  letter-spacing: 0.3em;
+}
+#letterem4 {
+  letter-spacing: 0.4em;
+}
+#letterem5 {
+  letter-spacing: 0.5em;
+}
+#letterem6 {
+  letter-spacing: 0.6em;
+}
+#letterem7 {
+  letter-spacing: 0.7em;
+}
+#letterem8 {
+  letter-spacing: 0.8em;
+}
+#letterem9 {
+  letter-spacing: 0.9em;
+}
+#letterem99 {
+  letter-spacing: 9.9em;
 }
