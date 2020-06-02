@@ -300,3 +300,7 @@ h4 {
 #letterem8 {letter-spacing: 0.8em;}
 #letterem9 {letter-spacing: 0.9em;}
 #letterem99 {letter-spacing: 9.9em;}
+
+#large-font {font-size: 20px}
+#line-height15 {line-height: 1.5}
+#line-height2 {line-height: 2}
