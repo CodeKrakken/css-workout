@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: Monospace, sans-serif; /* In this case sans-serif is the fallback font if monospace is unavailable - otherwise it would default to Times New Roman */
+  font-family: 'Manrope', sans-serif;
   padding: 20px
 }
 
