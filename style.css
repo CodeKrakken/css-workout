@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Tenali Ramakrishna';
+  src: local('Tenali Ramakrishna'), url('/Tenali_Ramakrishna/TenaliRamakrishna-Regular.ttf') format('truetype');
+}
+
 /* latin-ext */
 @font-face {
   font-family: 'Space Mono';
@@ -344,3 +349,5 @@ h4 {
 #large-font {font-size: 20px}
 #line-height15 {line-height: 1.5}
 #line-height2 {line-height: 2}
+
+#tenali {font-family: 'Tenali Ramakrishna'}
