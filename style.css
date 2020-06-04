@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Tenali Ramakrishna';
-  src: local('Tenali Ramakrishna'), url('/Tenali_Ramakrishna/TenaliRamakrishna-Regular.ttf') format('truetype');
+  src: url('Tenali_Ramakrishna/TenaliRamakrishna-Regular.ttf') format('truetype');
 }
 
 /* latin-ext */
