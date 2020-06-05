@@ -352,10 +352,15 @@ h4 {
 
 #tenali {font-family: 'Tenali Ramakrishna'}
 
+#grid-box {
+  border: 1px solid black;
+}
 #grid {
-  display: grid
+  display: grid;
+  width: 500px;
+  grid-template-columns: 100px 75px 50px 25px;
 }
 
 #inline-grid {
-  display: inline-grid
+  display: inline-grid;
 }
