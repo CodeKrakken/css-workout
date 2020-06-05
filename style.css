@@ -351,3 +351,11 @@ h4 {
 #line-height2 {line-height: 2}
 
 #tenali {font-family: 'Tenali Ramakrishna'}
+
+#grid {
+  display: grid
+}
+
+#inline-grid {
+  display: inline-grid
+}
