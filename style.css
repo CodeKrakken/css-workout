@@ -364,6 +364,5 @@ h4 {
 
 .inline-grid {
   display: inline-grid;
-  grid-template-columns: 20% 75px 50px 25px;
-  grid-template-rows: 25px 50px 75px 20%;
+  grid-template: 25px 50px 75px 20% / 20% 75px 50px 25px;
 }
