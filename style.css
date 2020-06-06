@@ -371,3 +371,8 @@ h4 {
   display: grid;
   grid-template: 1fr 2fr 3fr 4fr / 4fr 3fr 2fr 1fr
 }
+
+.repeat-grid {
+  display: grid;
+  grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+}
