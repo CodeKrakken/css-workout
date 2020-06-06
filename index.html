@@ -501,7 +501,9 @@
 
     <br><br>
 
-    display: grid
+    display: grid;<br>
+    grid-column-gap: 2px;<br>
+    grid-row-gap: 4px;<br>
     <div class="max-min grid-box grid">
       <div class="grid-box">1</div>
       <div class="grid-box">2</div>
@@ -523,7 +525,8 @@
 
     <br><br>
 
-    display: inline-grid
+    display: inline-grid;<br>
+    grid-gap: 8px;
     <div class="max-min grid-box inline-grid">
       <div class="grid-box">1</div>
       <div class="grid-box">2</div>
@@ -544,7 +547,8 @@
     </div>
 
     <br><br>
-    grid-template: 1fr 2fr 3fr 4fr / 4fr 3fr 2fr 1fr
+    grid-template: 1fr 2fr 3fr 4fr / 4fr 3fr 2fr 1fr;<br>
+    grid-gap: 8px 16px
     <div class="max-min fractional-grid">
       <div class="grid-box">1/4</div>
       <div class="grid-box">1/3</div>
