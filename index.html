@@ -633,5 +633,14 @@
       <div class="grid-box">R</div>
     </div>
 
+    <br><br>
+    grid-template: 1fr 1fr / 1fr minmax(100px, 300px);
+    <div class="minmax-grid">
+      <div class="grid-box">If you resize the browser so as to make the grid shrink,</div>
+      <div class="grid-box">This column will only shrink once the lefthand column has shrunk to fit its content.</div>
+      <div class="grid-box">this column will shrink first.</div>
+      <div class="grid-box">And then it will shrink down to its specified minimum size.</div>
+    </div>
+
   </body>
 </html>
