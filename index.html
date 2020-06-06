@@ -651,31 +651,35 @@
 
     <br><br>
 
-    Split rows and columns<br>
+    Multi-cell grid items<br>
     <div class="max-min split-row-column-grid box">
       <div class="multi-cell-item">
-        *
+        grid-row-start: 2;<br>
+        grid-row-end: 3;<br>
+        grid-column-start: 2;<br>
+        grid-column-end: 4;
       </div>
     </div>
 
-    <br>
-
-    <div>
-      * grid-row-start: 2;<br>
-      &nbsp grid-row-end: 3;<br>
-      &nbsp grid-column-start: 2;<br>
-      &nbsp grid-column-end: 4;<br>
-      OR<br>
-      &nbsp grid-row: 2 / 3;<br>
-      &nbsp grid-column: 2 / 4;<br>
-      OR<br>
-      &nbsp grid-row: 2 / span 1;<br>
-      &nbsp grid-column: span 2 / 4;<br>
-      OR<br>
-      &nbsp grid-area: 2 / 2 / span 1 / span 3
+    <div class="max-min split-row-column-grid box">
+      <div class="multi-cell-item">
+        grid-row: 2 / 3;<br>
+        grid-column: 2 / 4;
+      </div>
+    </div>
+    
+    <div class="max-min split-row-column-grid box">
+      <div class="multi-cell-item">
+        grid-row: 2 / span 1;<br>
+        grid-column: span 2 / 4;
+      </div>
     </div>
 
-
+    <div class="max-min split-row-column-grid box">
+      <div class="multi-cell-item">
+        grid-area:<br> 2 / 2 / span 1 / span 3;
+      </div>
+    </div>
 
   </body>
 </html>
