@@ -407,16 +407,20 @@ h4 {
                        "grid-menu grid-content";
   width: 500px;
   grid-area: 1fr 9fr / 1fr 9fr;
+  text-align: center;
 }
 
 .grid-header {
   grid-area: grid-header;
+  border: 1px black dashed;
 }
 
 .grid-menu {
   grid-area: grid-menu;
+  border: 1px black dashed;
 }
 
 .grid-content {
   grid-area: grid-content;
+  border: 1px black dashed;
 }
