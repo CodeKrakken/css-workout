@@ -230,6 +230,7 @@ display-none {display: none}
   position: fixed;
   top: 200px;
   left: 900px;
+  z-index: -1;
 }
 
 .underneath {z-index: 0}
@@ -424,4 +425,48 @@ h4 {
 .grid-content {
   grid-area: grid-content;
   border: 1px black dashed;
+}
+
+#overlap-grid {
+  display: grid;
+  min-width: 1000px;
+  max-width: 1000px;
+  min-height: 500px;
+  max-height: 500px;
+  grid-template: repeat(7, 1fr) / repeat(14, 1fr);
+}
+
+#red {
+  background: red;
+  grid-area: 1 / 1 / span 7 / span 14
+}
+
+#orange {
+  background: orange;
+  grid-area: 2 / 2 / span 6 / span 12
+}
+
+#yellow {
+  background: yellow;
+  grid-area: 3 / 3 / span 5 / span 10
+}
+
+#green {
+  background: green;
+  grid-area: 4 / 4 / span 4 / span 8
+}
+
+#blue {
+  background: blue;
+  grid-area: 5 / 5 / span 3 / span 6
+}
+
+#indigo {
+  background: indigo;
+  grid-area: 6 / 6 / span 2 / span 4
+}
+
+#violet {
+  background: violet;
+  grid-area: 7 / 7 / span 1 / span 2
 }
