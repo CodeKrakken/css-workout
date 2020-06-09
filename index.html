@@ -681,12 +681,24 @@
       </div>
     </div>
 
-    <div class="grid-template-container box">
-      <div class="grid-header">HEADER</div>
-      <div class="grid-menu">MENU</div>
-      <div class="grid-content">CONTENT</div>
-    </div>
+    <br><br>
 
+    .grid-template-container {<br>
+      display: grid;<br>
+      grid-template-areas: "grid-header grid-header"<br>
+                           "grid-menu grid-content";<br>
+      width: 500px;<br>
+      grid-area: 1fr 9fr / 1fr 9fr;<br>
+      text-align: center;<br>
+    }
+    <div class="grid-template-container box">
+      <div class="grid-header">grid-area: grid-header;<br>
+        border: 1px black dashed;</div>
+      <div class="grid-menu">grid-area: grid-menu;<br>
+        border: 1px black dashed;</div>
+      <div class="grid-content">grid-area: grid-content;<br>
+        border: 1px black dashed;</div>
+    </div>
     
   </body>
 </html>
