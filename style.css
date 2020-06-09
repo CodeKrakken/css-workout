@@ -429,44 +429,72 @@ h4 {
 
 #overlap-grid {
   display: grid;
-  min-width: 1000px;
-  max-width: 1000px;
-  min-height: 500px;
-  max-height: 500px;
-  grid-template: repeat(7, 1fr) / repeat(14, 1fr);
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 800px;
+  max-height: 800px;
+  grid-template: repeat(8, 1fr) / repeat(16, 1fr);
 }
 
 #red {
   background: red;
-  grid-area: 1 / 1 / span 7 / span 14
+  grid-area: 1 / 1 / span 8 / span 16;
+  border-top: thick solid red;
+  border-radius: 50%;
 }
 
 #orange {
   background: orange;
-  grid-area: 2 / 2 / span 6 / span 12
+  grid-area: 2 / 2 / span 7 / span 14;
+  border-top: thick solid orange;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 #yellow {
   background: yellow;
-  grid-area: 3 / 3 / span 5 / span 10
+  grid-area: 3 / 3 / span 6 / span 12;
+  border-top: thick solid yellow;
+  border-radius: 50%;
+  z-index: 2;
 }
 
 #green {
   background: green;
-  grid-area: 4 / 4 / span 4 / span 8
+  grid-area: 4 / 4 / span 5 / span 10;
+  border-top: thick solid green;
+  border-radius: 50%;
+  z-index: 3;
 }
 
 #blue {
   background: blue;
-  grid-area: 5 / 5 / span 3 / span 6
+  grid-area: 5 / 5 / span 4 / span 8;
+  border-top: thick solid blue;
+  border-radius: 50%;
+  z-index: 4;
 }
 
 #indigo {
   background: indigo;
-  grid-area: 6 / 6 / span 2 / span 4
+  grid-area: 6 / 6 / span 3 / span 6;
+  border-top: thick solid indigo;
+  border-radius: 50%;
+  z-index: 5;
 }
 
 #violet {
   background: violet;
-  grid-area: 7 / 7 / span 1 / span 2
+  grid-area: 7 / 7 / span 2 / span 4;
+  border-top: thick solid violet;
+  border-radius: 50%;
+  z-index: 6;
+}
+
+#white {
+  background: white;
+  grid-area: 8 / 8 / span 1 / span 2;
+  border-top: thick solid white;
+  border-radius: 50%;
+  z-index: 7;
 }
