@@ -686,12 +686,13 @@
     .grid-template-container {<br>
       display: grid;<br>
       grid-template-areas: "grid-header grid-header"<br>
-                           "grid-menu grid-content";<br>
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp"grid-menu grid-content";<br>
+      grid-template-rows: 1fr 9fr;<br>
+      grid-template-columns: 1fr 9fr;<br>
       width: 500px;<br>
-      grid-area: 1fr 9fr / 1fr 9fr;<br>
       text-align: center;<br>
     }
-    <div class="grid-template-container box">
+    <div class="grid-template-container">
       <div class="grid-header">grid-area: grid-header;<br>
         border: 1px black dashed;</div>
       <div class="grid-menu">grid-area: grid-menu;<br>
