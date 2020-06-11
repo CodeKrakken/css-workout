@@ -504,7 +504,6 @@ h4 {
   background: white;
 }
 
-.no {text-align: center;}
 .center {justify-items: center;}
 .start {justify-items: start;}
 .end {justify-items: end;}
@@ -529,9 +528,15 @@ h4 {
   width: 200px;
   margin: 10px;
   border: 1px dashed black;
+  height: 1000px;
 }
 
 .start-align {align-items: start;}
 .center-align {align-items: center;}
 .end-align {align-items: end;}
 .stretch-align {align-items: stretch;}
+
+.start-align-content {align-content: start;}
+.center-align-content {align-content: center;}
+.end-align-content {align-content: end;}
+.stretch-align-content {align-content: stretch;}
