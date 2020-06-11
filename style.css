@@ -353,9 +353,7 @@ h4 {
 
 #tenali {font-family: 'Tenali Ramakrishna'}
 
-.grid-box {
-  border: 1px solid black;
-}
+.grid-box {border: 1px solid black;}
 
 .grid {
   display: grid;
@@ -525,11 +523,12 @@ h4 {
 .content-space-evenly {justify-content: space-evenly;}
 
 .align-grid {
-  display: inline-grid;
+  display: grid;
   grid-template-rows: repeat(3, 200px);
   background: white;
   width: 200px;
   margin: 10px;
+  border: 1px dashed black;
 }
 
 .start-align {align-items: start;}
