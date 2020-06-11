@@ -502,7 +502,8 @@ h4 {
 
 .justify-grid {
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(3, 300px);
+  background: white;
 }
 
 .justify-one {grid-area: 1 / 1 / span 1 / span 1;}
@@ -518,3 +519,11 @@ h4 {
   justify-items: stretch;
   text-align: center;
 }
+
+.content-center {justify-content: center;}
+.content-start {justify-content: start;}
+.content-end {justify-content: end;}
+.content-stretch {justify-content: stretch;}
+.content-space-around {justify-content: space-around;}
+.content-space-between {justify-content: space-between;}
+.content-space-evenly {justify-content: space-evenly;}
