@@ -504,39 +504,35 @@ h4 {
   background: white;
 }
 
-.center {justify-items: center;}
-.start {justify-items: start;}
-.end {justify-items: end;}
+.justify-items-start {justify-items: start;}
+.justify-items-center {justify-items: center;}
+.justify-items-end {justify-items: end;}
+.justify-items-stretch {justify-items: stretch;}
 
-.stretch {
-  justify-items: stretch;
-  text-align: center;
-}
-
-.content-center {justify-content: center;}
-.content-start {justify-content: start;}
-.content-end {justify-content: end;}
-.content-stretch {justify-content: stretch;}
-.content-space-around {justify-content: space-around;}
-.content-space-between {justify-content: space-between;}
-.content-space-evenly {justify-content: space-evenly;}
+.justify-content-start {justify-content: start;}
+.justify-content-center {justify-content: center;}
+.justify-content-end {justify-content: end;}
+.justify-content-stretch {justify-content: stretch;}
+.justify-content-space-around {justify-content: space-around;}
+.justify-content-space-between {justify-content: space-between;}
+.justify-content-space-evenly {justify-content: space-evenly;}
 
 .align-grid {
   display: inline-grid;
   grid-template-rows: repeat(3, 200px);
   background: white;
-  width: 200px;
+  width: 100px;
   margin: 10px;
   border: 1px dashed black;
   height: 1000px;
 }
 
-.start-align {align-items: start;}
-.center-align {align-items: center;}
-.end-align {align-items: end;}
-.stretch-align {align-items: stretch;}
+.align-items-start {align-items: start;}
+.align-items-center {align-items: center;}
+.align-items-end {align-items: end;}
+.align-items-stretch {align-items: stretch;}
 
-.start-align-content {align-content: start;}
-.center-align-content {align-content: center;}
-.end-align-content {align-content: end;}
-.stretch-align-content {align-content: stretch;}
+.align-content-start {align-content: start;}
+.align-content-center {align-content: center;}
+.align-content-end {align-content: end;}
+.align-content-stretch {align-content: stretch;}
