@@ -499,3 +499,21 @@ h4 {
   border-radius: 50%;
   z-index: 7;
 }
+
+.justify-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+}
+
+.justify-one {grid-area: 1 / 1 / span 1 / span 1;}
+.justify-two {grid-area: 1 / 2 / span 1 / span 1;}
+.justify-three {grid-area: 1 / 3 / span 1 / span 1;}
+
+.center {justify-items: center;}
+.start {justify-items: start;}
+.end {justify-items: end;}
+
+.stretch {
+  justify-items: stretch;
+  text-align: center;
+}
