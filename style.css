@@ -355,6 +355,11 @@ h4 {
 
 .grid-box {border: 1px solid black;}
 
+.justify-grid-box {
+  border: 1px solid black;
+  width: 310px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 20% 75px 50px 25px;
@@ -500,7 +505,7 @@ h4 {
 
 .justify-grid {
   display: grid;
-  grid-template-columns: repeat(3, 300px);
+  grid-template-columns: repeat(3, 350px);
   background: white;
   border: 1px dashed black;
 }
@@ -540,4 +545,14 @@ h4 {
 .align-content-end {align-content: end;}
 .align-content-stretch {align-content: stretch;}
 
+.grrid {
+  display: grid;
+  grid-template-columns: 500px;
+  border: 1px dashed black;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+}
 
+.grritem {
+  border: 1px solid black;
+}
