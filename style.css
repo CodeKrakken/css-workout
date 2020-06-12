@@ -502,12 +502,14 @@ h4 {
   display: grid;
   grid-template-columns: repeat(3, 300px);
   background: white;
+  border: 1px dashed black;
 }
 
 .justify-items-start {justify-items: start;}
 .justify-items-center {justify-items: center;}
 .justify-items-end {justify-items: end;}
 .justify-items-stretch {justify-items: stretch;}
+.justify-self-end {justify-self: end;}
 
 .justify-content-start {justify-content: start;}
 .justify-content-center {justify-content: center;}
@@ -522,7 +524,7 @@ h4 {
   grid-template-rows: repeat(3, 200px);
   background: white;
   width: 100px;
-  margin: 10px;
+  margin: 5px;
   border: 1px dashed black;
   height: 650px;
 }
@@ -531,8 +533,11 @@ h4 {
 .align-items-center {align-items: center;}
 .align-items-end {align-items: end;}
 .align-items-stretch {align-items: stretch;}
+.align-self-end {align-self: end;}
 
 .align-content-start {align-content: start;}
 .align-content-center {align-content: center;}
 .align-content-end {align-content: end;}
 .align-content-stretch {align-content: stretch;}
+
+
